@@ -22,7 +22,7 @@ System_UPS = "/webapi/entry.cgi?api=SYNO.Core.ExternalDevice.UPS&method=get&vers
 CpuCoreGroup = "/webapi/entry.cgi?api=SYNO.Core.System.ProcessGroup&method=list&version=1&object_id=NOTE_ID&_sid="
 logout = "/webapi/entry.cgi?api=SYNO.API.Auth&version=6&method=logout&_sid="  # User logout
 CPUaRAMused = "/webapi/entry.cgi?api=SYNO.Virtualization.Cluster&method=get_host&version=1&object_id=NOTE_ID&_sid="  # Get CPU & RAM & Network Info # StatusCode in  error , healthy , warning
-api_url = "https://dsm.yeely.top:1666/webapi/query.cgi?api=SYNO.API.Info&version=1&method=query&query=all" # All Synology API Page
+api_url = "https://nimocass.com:80/webapi/query.cgi?api=SYNO.API.Info&version=1&method=query&query=all" # All Synology API Page
 
 
 
